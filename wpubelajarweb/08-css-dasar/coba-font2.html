@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba CSS - Font Styling</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&display=swap');
+
+        @font-face {
+            font-family: Redaction;
+            src: url('fonts/Redaction70-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        h1 {
+            color: crimson;
+            font-size: 60px;
+            text-align: center;
+            font-family: "Bitcount Ink", sans-serif;
+            font-weight: 300;
+        }
+
+        p {
+            color: aqua;
+            text-align: center;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .font-redaction {
+            font-family: Redaction;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello World</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dignissimos reprehenderit natus consectetur
+        iusto neque vitae amet officia fugiat dicta.</p>
+    <p class="font-redaction">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quam omnis maiores
+        ipsum?
+        Iusto enim unde
+        expedita saepe exercitationem assumenda!</p>
+</body>
+
+</html>
