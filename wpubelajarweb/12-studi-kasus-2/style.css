@@ -98,7 +98,7 @@ html {
 body {
     font-family: Inter, arial, helvetica, sans-serif;
     background-color: #f5f5f5;
-    color: #333;
+    color: #14146b;
     line-height: 1.6;
 }
 
@@ -111,7 +111,7 @@ h3 {
 header {
     text-align: center;
     padding: 40px 20px;
-    background-color: #1A1A1E;
+    background-color: #14146b;
     color: white;
 }
 
@@ -126,7 +126,7 @@ header.genre-tags {
 
 header .genre-tags .tag {
     display: inline-block;
-    background-color: #06b6d4;
+    background-color: #14146b;
     padding: 6px 16px;
     margin: 0 5px;
     border-radius: 20px;
@@ -152,7 +152,7 @@ main .profile-card .artist-photo {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 5px solid #06b6d4;
+    border: 5px solid #eb1fa0;
     margin-bottom: 20px;
 }
 
@@ -176,13 +176,13 @@ main .profile-card .stats .stat-item {
     background-color: #f9f8f8;
     margin: 10px 20px;
     border-radius: 8px;
-    border: 2px solid #bdf5ff;
+    border: 2px solid #c557b8;
 }
 
 main .profile-card .stats .stat-item .stat-value {
     font-size: 2em;
     font-weight: bold;
-    color: #06b6d4;
+    color: #14146b;
 }
 
 main .profile-card .stats .stat-item .stat-label {
@@ -235,7 +235,7 @@ main .discography .album-list .album-card p {
 
 main .discography .album-list .album-card .btn-listen {
     display: inline-block;
-    background-color: #06b6d4;
+    background-color: #c557b8;
     color: white;
     padding: 8px 20px;
     border-radius: 20px;
@@ -244,7 +244,7 @@ main .discography .album-list .album-card .btn-listen {
 }
 
 main .discography .album-list .album-card .btn-listen:hover {
-    background-color: #07c7e9;
+    background-color: #6a8489;
 }
 
 main .social-links {
@@ -257,7 +257,7 @@ main .social-links {
 
 main .social-links .social-btn {
     display: inline-block;
-    background-color: #1A1A1E;
+    background-color: #f0237c;
     color: white;
     padding: 12px 30px;
     margin: 10px;
@@ -267,13 +267,13 @@ main .social-links .social-btn {
 }
 
 main .social-links .social-btn:hover {
-    background-color: #333;
+    background-color: #c1aebc;
 }
 
 footer {
     text-align: center;
     padding: 30px;
-    background-color: #1A1A1E;
+    background-color: #14146b;
     color: white;
     margin-top: 50px;
 }
